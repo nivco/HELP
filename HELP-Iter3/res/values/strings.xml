@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">HELP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_start_screen">Help</string>
+    <string name="add">Add one</string>
+    <string name="sub">Subtract one</string>
+    <string name="total">Your total is 0</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center|center_vertical"
+    android:background="@drawable/untitled"
+    >
+
+    
+    	<Button
+    	    android:id="@+id/tempbutton1"
+    	    android:layout_gravity="center"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:background="@drawable/logologin"
+    	    />
+
+    	<Button
+    	    android:id="@+id/tempbutton2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:background="@drawable/username" />
+
+    	<EditText
+    	    android:id="@+id/username"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    >
+
+    	    <requestFocus />
+    	</EditText>
+
+    	<Button
+    	    android:id="@+id/tempbutton3"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:background="@drawable/password" />
+
+		<EditText
+		    android:id="@+id/password"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:password="true" />
+		
+		
+		
+
+		<Button
+		    android:id="@+id/Button01"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:layout_marginTop="15dp"
+		    android:text="Login" />
+
+		<Button
+		    android:id="@+id/tempbutton4"
+			android:layout_gravity="center"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/needtoregister" />
+		
+		<Button
+		    android:id="@+id/Register"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:text="Register" />
+			
+</LinearLayout>
