@@ -253,7 +253,7 @@ public class Hebrew extends Activity implements OnClickListener,
 							3);
 					nameValuePairs.add(new BasicNameValuePair("english", ""));
 					nameValuePairs.add(new BasicNameValuePair("math", ""));
-					nameValuePairs.add(new BasicNameValuePair("hebrew", str));
+					nameValuePairs.add(new BasicNameValuePair("hebrew", res));
 
 					post.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
